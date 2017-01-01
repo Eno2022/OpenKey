@@ -1,0 +1,20 @@
+{
+  "name": "OpenKey",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "p.mac": "electron-packager . --overwrite --asar=true --platform=darwin --arch=x64 --icon=icon.icns --prune=true --out=release-builds",
+    "i.mac": "electron-installer-dmg ./release-builds/OpenKey-darwin-x64/OpenKey.app OpenKey --out=release-builds --overwrite --icon=icon.icns"
+  },
+  "repository": "https://github.com/Eno2022/OpenKey",
+  "license": "MIT",
+  "dependencies": {
+    "auto-launch": "*",
+    "chokidar": "*",
+    "keymaster": "*"
+  },
+  "devDependencies": {
+    "electron": "*"
+  }
+}

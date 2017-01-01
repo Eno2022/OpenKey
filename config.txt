@@ -1,0 +1,38 @@
+F1  // format: Alt+Cmd+Ctrl+Shift+Key
+
+[root]
+a [apps]
+u [folders]
+w [websites]
+c CONFIG ~/OpenKeyConfig.txt
+p /Applications/System Preferences.app
+
+[websites]
+8 8tracks.com/explore
+a [apps]
+d https://duckduckgo.com
+g gmail https://mail.google.com
+cg goodreads-productivity https://www.goodreads.com/shelf/show/productivity
+dg github-trending github.com/trending
+h hacker-news hntoplinks.com
+i inc.com
+l lifehacker-index lifehacker.com/lifehacker-the-index-1524507989
+m medium-top https://medium.com/browse/top
+p pocket-hits https://getpocket.com/explore/pocket-hits
+s https://www.scribd.com/
+r reddit-productivity https://www.reddit.com/r/productivity/top/
+
+[apps]
+a /Applications/Utilities/Activity Monitor.app
+aa /Applications/App Store.app
+p /Applications/System Preferences.app
+e /Applications/Utilities/Terminal.app
+r [root]
+
+[folders]
+a /Applications
+d ~/Downloads
+e ~/Desktop
+sd ~/Documents
+h home-dir ~
+r [root]
